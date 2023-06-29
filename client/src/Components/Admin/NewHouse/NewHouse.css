@@ -1,0 +1,79 @@
+.newHouse{
+    display: flex;
+    flex-direction: column;
+}
+
+.newHouse .content{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.newHouse .content form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newHouse .content form .item{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.newHouse .content form .item label{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.newHouse .content form .item input{
+    height: 30px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+}
+
+.newHouse .content form .item textarea{
+    width: 400px;
+    height: 150px;
+    outline: none;
+    resize: none;
+    padding: 5px;
+    overflow-y: scroll;
+    font-size: 17px;
+}
+
+.newHouse .content form .item select{
+    padding: 10px;
+}
+
+.newHouse .content form .item option{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.newHouse .content form button{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background: orange;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.newHouse .content form button:hover{
+    transform: scale(0.95);
+}
+
+@media screen and (max-width: 768px) {
+    .desc{
+        display: flex;
+        flex-direction: column;
+    }
+  }

@@ -1,0 +1,109 @@
+.editHouse{
+    display: flex;
+    flex-direction: row;
+}
+
+.editHouse .left .content{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.editHouse .left .content form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.editHouse .left .content form .item{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.editHouse .left .content form .item label{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.editHouse .left .content form .item input{
+    height: 30px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+}
+
+.editHouse .left .content form .item textarea{
+    width: 400px;
+    height: 150px;
+    outline: none;
+    resize: none;
+    padding: 5px;
+    overflow-y: scroll;
+    font-size: 17px;
+}
+
+.editHouse .left .content form .item select{
+    padding: 10px;
+}
+
+.editHouse .left .content form .item option{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.editHouse .left .content form button{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background: orange;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.editHouse .left .content form button:hover{
+    transform: scale(0.95);
+}
+
+.editHouse .right{
+    margin-left: 20px;
+}
+
+.editHouse .right .top{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+}
+
+.editHouse .right .top span{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.editHouse .right .image{
+    width: 300px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .editHouse{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .desc{
+        flex-direction: column;
+    }
+
+    .editHouse .right .top{
+        margin-left: 0px;
+    }
+  }

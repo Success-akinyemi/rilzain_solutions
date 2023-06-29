@@ -1,0 +1,149 @@
+.house{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.house .top{
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.house .top .houseImg{
+    flex: 1;
+}
+
+.house .top .houseImg .mainImg{
+    width: 30%;
+}
+
+.house .top .houseImg .imageSlider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.house .top .houseImg .imageSlider .imageSliderContent{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+.house .top .houseImg .imageSlider .imageSliderContent .imageSliderItem{
+    width: 100%;
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.house .top .houseImg .imageSlider .imageSliderContent img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.house .top .houseImg .imageSlider .imageSliderContent .arrow_control{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    z-index: 10;
+}
+
+.house .top .houseImg .imageSlider .imageSliderContent .arrow_control .arrow{
+    font-size: 50px;
+    color: #fff;
+    border-radius: 50%;
+    background: rgb(255, 136, 0);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.house .top .houseImg .imageSlider .imageSliderContent .arrow_control .arrow:hover{
+    border: 1px solid rgb(255, 136, 0);
+    color: rgb(255, 136, 0);
+    background: transparent;
+}
+
+.house .top .houseImg .imageSlider span{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.house .top .houseImg .imageSlider img{
+    width: 90%;
+    border-radius: 10px;
+}
+
+
+
+.house .top .houseInfo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.house .top .houseInfo .infoContent{
+    width: 100%;
+    padding: 10px;
+}
+
+.house .top .houseInfo .infoContent .item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.house .top .houseInfo .infoContent .item span{
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.house .top .houseInfo .infoContent .item .price{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.house .top .houseInfo button{
+    padding: 10px;
+    width: 90%;
+    transition: all 0.3s ease;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.house .top .houseInfo button:hover{
+    transform: scale(1.03);
+}
+
+.house .top .houseInfo button a{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.house .h-footer{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .home .top{
+        flex-direction: column;
+    }
+}
