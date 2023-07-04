@@ -1,9 +1,9 @@
 import axios from 'axios'
 import jwt_decode from 'jwt-decode'
 
-axios.defaults.baseURL = 'http://localhost:9000'
+axios.defaults.baseURL = 'https://rilzain-solutions.onrender.com'
 //'http://localhost:9000'
-//'https://mediplus-backend-server.onrender.com'
+//'https://rilzain-solutions.onrender.com'
 
 /**Make API Request */
 

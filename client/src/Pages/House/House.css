@@ -142,8 +142,12 @@
     width: 100%;
 }
 
-@media screen and (max-width: 768px) {
-    .home .top{
+@media (max-width: 768px) {
+    .house{
+        width: 100vw;
+    }
+
+    .house .top{
         flex-direction: column;
     }
 }

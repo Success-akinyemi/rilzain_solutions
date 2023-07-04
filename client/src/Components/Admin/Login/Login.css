@@ -9,7 +9,7 @@
 }
 
 .login .login_container{
-    height: 400px;
+    height: 450px;
     width: 350px;
     border: 1px solid gray;
     border-radius: 20px;
@@ -73,4 +73,17 @@
 .login .login_container .link{
     text-decoration: none;
     color: inherit;
+}
+
+@media (max-width: 768px){
+    .login{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login .login_container{
+        width: 90%;
+    }
 }

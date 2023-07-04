@@ -10,9 +10,10 @@
     z-index: 99;
     position: fixed;
     top: 0;
-    width: 95vw;
+    width: 100%;
     flex-wrap: wrap;
-    background: white;
+    background: black;
+    align-items: center;
 }
 
 .viewHomes .nav .link{
@@ -21,7 +22,7 @@
 }
 
 .viewHomes .nav .logo{
-    color: var(--blue);
+    color: #fff;
     text-decoration: none;
     font-style: italic;
 }
@@ -87,4 +88,19 @@
 .viewHomes .v-footer{
     width: 100%;
     
+}
+
+@media (max-width: 768px) {
+    .viewHomes{
+        width: 100vh;
+    }
+
+    .viewHomes .sort{
+        flex-direction: column;
+    }
+
+    .viewHomes .sort .range{
+        display: flex;
+        flex-direction: column;
+    }
 }

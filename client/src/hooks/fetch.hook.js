@@ -2,9 +2,9 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { getEmail } from '../helpers/helper'
 
-axios.defaults.baseURL = 'http://localhost:9000'
+axios.defaults.baseURL = 'https://rilzain-solutions.onrender.com'
 //'http://localhost:9000'
-//'https://mediplus-backend-server.onrender.com'
+//'https://rilzain-solutions.onrender.com'
 
 /**Custom Hooks */
 export default function useFetch(query){

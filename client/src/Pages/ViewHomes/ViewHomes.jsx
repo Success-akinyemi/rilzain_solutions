@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './ViewHomes.css'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import HouseList from '../../components/HouseList/HouseList'
-import Footer from '../../components/Footer/Footer'
+import HouseList from '../../Components/HouseList/HouseList'
+import Footer from '../../Components/Footer/Footer'
 //import { ViewHomesData } from '../../data/ViewHomesData'
 import { request } from '../../axios'
 

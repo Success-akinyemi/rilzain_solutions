@@ -108,6 +108,10 @@
   
   /* RESPONSIVE */
   @media (max-width: 768px) {
+    .dashboard{
+      width: 100vw;
+    }
+
     .dashboard .content {
       padding-top: 60px; /* Adjust this value based on your header height */
     }
